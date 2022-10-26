@@ -26,10 +26,6 @@ body {
 	display: flex;
 }
 
-.row > * {
-	border: 1px dashed black;
-}
-
 .col {
 	width: calc(100% / 3);
 }
