@@ -143,6 +143,11 @@ main .col {
 	position: absolute;
 	right: 0;
 	top: 10px;
+	cursor: pointer;
+}
+
+.heart:hover {
+	color: #FF0000;
 }
 
 .tags {
