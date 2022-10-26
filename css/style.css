@@ -18,6 +18,10 @@ body {
 	padding: 50px 0;
 }
 
+.padding-top-50px {
+	padding-top: 50px;
+}
+
 .row {
 	display: flex;
 }
@@ -95,8 +99,23 @@ main .col {
 	position: relative;
 }
 
-.img img {
+.card-img {
+	position: relative;
+}
+.card-img img {
 	width: 100%;
+}
+
+.img-2 {
+	display: none;
+}
+
+.card-img:hover .img-1 {
+	display: none;
+}
+
+.card-img:hover .img-2 {
+	display: block;
 }
 
 .heart {
@@ -131,6 +150,17 @@ main .col {
 
 .bio {
 	background-color: #008000;
+}
+
+.price {
+	font-weight: 600;
+	color: #FF0000;
+}
+
+.line-trough{
+	font-weight: 400;
+	text-decoration: line-through;
+	color: #000000;
 }
 
 /* Footer */
