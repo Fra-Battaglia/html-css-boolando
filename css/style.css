@@ -120,6 +120,10 @@ main .col {
 	width: 100%;
 }
 
+.img-1 {
+	display: block;
+}
+
 .img-2 {
 	display: none;
 }
