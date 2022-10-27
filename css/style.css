@@ -74,7 +74,7 @@ nav ul li, footer ul li {
 	margin-right: 1em;
 }
 
-nav a, footer a {
+header a, footer a {
 	color: #FFFFFF;
 	text-decoration: none;
 }
@@ -112,6 +112,8 @@ main .col:last-child {
 main .col {
 	position: relative;
 }
+
+/* Card */
 
 .card-img {
 	position: relative;
@@ -173,6 +175,11 @@ main .col {
 
 .bio {
 	background-color: #008000;
+}
+
+.card-text a {
+	color: #000000;
+	text-decoration: none;
 }
 
 .price {
